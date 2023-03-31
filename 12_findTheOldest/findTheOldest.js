@@ -2,7 +2,7 @@ const findTheOldest = function(people) {
     const oldestToYoungest = people.sort((a, b) => {
         return getAge(a) > getAge(b) ? -1 : 1;
     });
-    console.table(oldestToYoungest);
+    // console.table(oldestToYoungest);
     return oldestToYoungest[0];
 };
 
